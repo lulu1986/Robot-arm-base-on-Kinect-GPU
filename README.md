@@ -1,1 +1,1 @@
-# lulu1986-Robot-arm-for-Object-Specific-Pick-with-Computer-Vision-base-on-Kinect-sensor
+# Robot-arm-for-Object-Specific-Pick-with-Computer-Vision-base-on-Kinect-sensor
