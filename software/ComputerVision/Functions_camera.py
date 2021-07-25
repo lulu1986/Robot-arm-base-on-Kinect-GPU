@@ -5,5 +5,6 @@ def Convert_PosCameraDepth_To_XYZ(x_d, y_d, z):
     y = (y_d - camera_parameter.CameraParams['cy']) * z / camera_parameter.CameraParams['fy']
     return x, y, z
 
+#limit the variable between maximal and minimal value
 def clamp(n, minn, maxn):
     return max(min(maxn, n), minn)
