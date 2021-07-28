@@ -4,17 +4,17 @@
 ## Software
 **Object detection and localization:**
 
-The computer vision algorithm is based on Yolov2. With Yolov2 the bottle can be detected and locolized with a rectangle.
-The RGB camera of Kinect is used for object detection and localization
+The computer vision algorithm is based on Yolov2. With Yolov2 the bottle can be detected and locolized with a rectangle in realtime.
+The RGB camera of Kinect is used for object detection and localization.
 Thanks to the open source library pylibfreenect the kinect can be run on Ubuntu system with libfreenect python functions.
 https://github.com/r9y9/pylibfreenect2.git
 
 **Calculate the 3D position of target in real world.**
 1. Transfer the 2D position of target object from RGB camera coordinate into real worl coordinate with camera parameter
-2. Allign the 2D position in depth camera with RGB camera
+2. Allign the 2D position of depth camera with RGB camera
 3. After step2 the depth position can be added to the 2d postion in RBG camera coordinate
 
-The following picture shows that the 3D position of the center of detected target is shown in the middle of rectangle.
+As the following picture shows, the 3D position of the center of detected target is presented in the middle of rectangle.
 
 **Camera calibration**
 
