@@ -14,7 +14,11 @@ https://github.com/r9y9/pylibfreenect2.git
 2. Allign the 2D position of depth camera with RGB camera
 3. After step2 the depth position can be added to the 2d postion in RBG camera coordinate
 
+Copy the python scrpits and put them on the folder of darkflow. Then run the main script. 
 As the following picture shows, the 3D position of the center of detected target is presented in the middle of rectangle.
+
+![image](https://user-images.githubusercontent.com/38363960/127788096-b8303176-fe89-4432-bbc6-ad6b63a56593.png)
+
 
 **Camera calibration**
 
