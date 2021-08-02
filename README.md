@@ -4,10 +4,14 @@
 ## Software
 **Object detection and localization:**
 
-The computer vision algorithm is based on Yolov2. With Yolov2 the bottle can be detected and locolized with a rectangle in realtime.
+The computer vision algorithm is based on Yolov2. With Yolov2 the target can be detected and locolized with a rectangle in realtime.
 The RGB camera of Kinect is used for object detection and localization.
 Thanks to the open source library pylibfreenect the kinect can be run on Ubuntu system with libfreenect python functions.
 https://github.com/r9y9/pylibfreenect2.git
+
+The following diagramm shows the structure of the project.
+![image](https://user-images.githubusercontent.com/38363960/127919027-79697872-2fc0-404a-b8ec-7d7463aaca59.png)
+
 
 **Calculate the 3D position of target in real world.**
 1. Transfer the 2D position of target object from RGB camera coordinate into real worl coordinate with camera parameter
@@ -24,7 +28,7 @@ As the following picture shows, the 3D position of the center of detected target
 
 The Zhang Youzheng calibration method based on OpenCV is used for camera calibration.
 
-**Object segmentation**
+**Instance segmentation**
 
 In order to calculate the optimal pick position of the bottle, the object segmentation is necessary to estimate the object bundary. The the pick position can be calculated with different algorithum. The object segmentation is to be developed.
 
@@ -34,7 +38,7 @@ The ROS is used for coordinate the 3D position calculated in Jetson Nano boad, t
 The code for ROS is under development.
 
 **Communication between Jetson Nano board and Raspberry board**
-
+The I2C bus is used to communicate between Jetson Nano board and Raspberry board.
 To do
 
 
