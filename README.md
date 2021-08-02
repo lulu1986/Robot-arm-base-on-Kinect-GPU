@@ -4,23 +4,34 @@
 ## Software
 **Object detection and localization:**
 
-The computer vision algorithm is based on Yolov2. With Yolov2 the bottle can be detected and locolized with a rectangle.
-The RGB camera of Kinect is used for object detection and localization
+The computer vision algorithm is based on Yolov2. With Yolov2 the target can be detected and locolized with a rectangle in realtime.
+The RGB camera of Kinect is used for object detection and localization.
 Thanks to the open source library pylibfreenect the kinect can be run on Ubuntu system with libfreenect python functions.
 https://github.com/r9y9/pylibfreenect2.git
 
+The following diagramm shows the structure of the project.
+
+![image](https://user-images.githubusercontent.com/38363960/127919027-79697872-2fc0-404a-b8ec-7d7463aaca59.png)
+
+![QQ图片20210802232047](https://user-images.githubusercontent.com/38363960/127925409-1e488732-9ce6-43d9-a612-e02d76f45e7a.jpg)
+
+
 **Calculate the 3D position of target in real world.**
 1. Transfer the 2D position of target object from RGB camera coordinate into real worl coordinate with camera parameter
-2. Allign the 2D position in depth camera with RGB camera
+2. Allign the 2D position of depth camera with RGB camera
 3. After step2 the depth position can be added to the 2d postion in RBG camera coordinate
 
-The following picture shows that the 3D position of the center of detected target is shown in the middle of rectangle.
+Copy the python scrpits and put them on the folder of darkflow. Then run the main script. 
+As the following picture shows, the 3D position of the center of detected target is presented in the middle of rectangle.
+
+![image](https://user-images.githubusercontent.com/38363960/127788096-b8303176-fe89-4432-bbc6-ad6b63a56593.png)
+
 
 **Camera calibration**
 
 The Zhang Youzheng calibration method based on OpenCV is used for camera calibration.
 
-**Object segmentation**
+**Instance segmentation**
 
 In order to calculate the optimal pick position of the bottle, the object segmentation is necessary to estimate the object bundary. The the pick position can be calculated with different algorithum. The object segmentation is to be developed.
 
@@ -30,7 +41,7 @@ The ROS is used for coordinate the 3D position calculated in Jetson Nano boad, t
 The code for ROS is under development.
 
 **Communication between Jetson Nano board and Raspberry board**
-
+The I2C bus is used to communicate between Jetson Nano board and Raspberry board.
 To do
 
 
@@ -49,7 +60,8 @@ The Kinect v2 also has a RGB camera. So with the 2D information and the depth in
 
 **3. Robot arm**
 
-![image](https://user-images.githubusercontent.com/38363960/127217896-ca75742f-6026-482c-a416-6b4200888383.png)
+![QQ图片20210802232432](https://user-images.githubusercontent.com/38363960/127925775-a15af2f4-d33e-4860-850a-9f18049abb05.jpg)
+
 
 Hiwonder robot arm, bought from the following link
 https://item.jd.com/54284760045.html
