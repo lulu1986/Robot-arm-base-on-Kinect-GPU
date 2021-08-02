@@ -10,6 +10,7 @@ Thanks to the open source library pylibfreenect the kinect can be run on Ubuntu 
 https://github.com/r9y9/pylibfreenect2.git
 
 The following diagramm shows the structure of the project.
+
 ![image](https://user-images.githubusercontent.com/38363960/127919027-79697872-2fc0-404a-b8ec-7d7463aaca59.png)
 
 
