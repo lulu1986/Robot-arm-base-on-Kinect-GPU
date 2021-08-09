@@ -71,3 +71,9 @@ This robot arm with six dof is used to pick the bottle.
 **4. raspberry pi**
 
 A raspberry pi board is needed to control the robot arm. So the robot arm is moved with six motors mounted on joints. Each motor is driven by PWM signal, which can be sent out by six GPIO ports in Raspberry Pi.
+
+4.1 Install the ROS in Raspberry Pi
+Please refer to http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Kinetic%20on%20the%20Raspberry%20Pi for installing.
+4.2
+
+
