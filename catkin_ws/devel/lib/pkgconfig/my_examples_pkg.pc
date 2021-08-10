@@ -1,1 +1,0 @@
-/home/pi/catkin_ws/devel/.private/my_examples_pkg/lib/pkgconfig/my_examples_pkg.pc

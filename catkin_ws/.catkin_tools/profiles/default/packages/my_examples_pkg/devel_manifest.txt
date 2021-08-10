@@ -1,5 +1,0 @@
-my_examples_pkg
-/home/pi/catkin_ws/devel/.private/my_examples_pkg/cmake.lock /home/pi/catkin_ws/devel/./cmake.lock
-/home/pi/catkin_ws/devel/.private/my_examples_pkg/lib/pkgconfig/my_examples_pkg.pc /home/pi/catkin_ws/devel/lib/pkgconfig/my_examples_pkg.pc
-/home/pi/catkin_ws/devel/.private/my_examples_pkg/share/my_examples_pkg/cmake/my_examples_pkgConfig.cmake /home/pi/catkin_ws/devel/share/my_examples_pkg/cmake/my_examples_pkgConfig.cmake
-/home/pi/catkin_ws/devel/.private/my_examples_pkg/share/my_examples_pkg/cmake/my_examples_pkgConfig-version.cmake /home/pi/catkin_ws/devel/share/my_examples_pkg/cmake/my_examples_pkgConfig-version.cmake

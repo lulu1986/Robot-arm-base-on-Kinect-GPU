@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC   -shared -Wl,-soname,libgmock_main.so -o libgmock_main.so CMakeFiles/gmock_main.dir/src/gmock_main.cc.o  -Wl,-rpath,/home/pi/catkin_ws/build/catkin_tools_prebuild/gtest/googlemock:/home/pi/catkin_ws/build/catkin_tools_prebuild/gtest/googlemock/gtest libgmock.so gtest/libgtest.so -lpthread 

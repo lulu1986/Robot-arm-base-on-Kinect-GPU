@@ -1,5 +1,0 @@
-<launch>
-    <node pkg="my_examples_pkg" type="simple_topic_subscriber.py" name="talker" output="screen" />
-    <node pkg="my_examples_pkg" type="simple_topic_publisher.py" name="listener" output="screen" /> 
-</launch>
-
