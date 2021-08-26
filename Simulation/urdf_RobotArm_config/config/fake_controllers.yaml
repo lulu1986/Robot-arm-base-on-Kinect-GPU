@@ -1,0 +1,12 @@
+controller_list:
+  - name: fake_Wang_arm_controller
+    type: $(arg execution_type)
+    joints:
+      - Joint12
+      - Joint23
+      - Joint34
+      - Joint45
+      - Joint56
+initial:  # Define initial robot poses.
+  - group: Wang_arm
+    pose: Rest
