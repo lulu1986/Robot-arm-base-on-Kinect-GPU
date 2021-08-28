@@ -82,3 +82,5 @@ Please refer to http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Kinetic%20on%2
 The robot arm is created in Solidwork. The Links are created separately and assembled together. The urdf is exported and imported into MoveIt!.
 
 ![image](https://user-images.githubusercontent.com/38363960/131035789-b5bc6ea1-d6f6-4753-bce7-798b0ed32e4a.png)
+
+To do: The trajectory planning in MoveIt!
